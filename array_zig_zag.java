@@ -39,3 +39,6 @@ public class array_zig_zag {
         zigZag(arr);
     }
 }
+
+// link for executable code
+// https://www.onlinegdb.com/edit/wCIRkRPFG
