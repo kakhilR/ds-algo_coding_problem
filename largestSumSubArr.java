@@ -27,5 +27,5 @@ public class Main
 		System.out.println(largestSubArray(arr));
 	}
 }
-// link of working
+// link of working code
 // https://www.onlinegdb.com/edit/Fg2C3cmyM
