@@ -22,3 +22,6 @@ public class findFreqGivenRanges {
 	}
     
 }
+
+// executable code
+// https://www.onlinegdb.com/edit/weFycuJ5y
