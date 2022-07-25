@@ -67,3 +67,6 @@ class nextGreatElemnt{
 //             stack.pop();
 //         }
 //     }
+
+// executable link
+// https://www.onlinegdb.com/edit/M8GeTaIELY
