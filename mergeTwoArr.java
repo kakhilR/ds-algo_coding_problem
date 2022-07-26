@@ -24,15 +24,52 @@ public class mergeTwoArr {
         int l=0;
         int x=0;
         for(;x<A.length-lastInd;x++){
-            if(A[n]<B[l]){
+            if(A[n]<=B[l]){
                 A[x] = A[n];
                 n++;
             }
-            else if(B[l]<A[n]){
+            else{
                 A[x] = B[l];
                 l++;
             }
+            x++;
         }
+        while(n<A.length && x<A.length){
+            if(l<A.length){
+                if(A[n]<B[l]){
+                    A[x] = A[n];
+                    n++;
+                }else{
+                    A[x]= B[l];
+                    l++;
+                }
+                x++;
+            }else{
+                A[x] = A[n];
+                n++;
+                x++;
+            }
+        }
+        while(l<A.length && x<A.length){
+            if(n<A.length){
+                if(B[l]<A[n]){
+                    A[x] = A[l];
+                    l++;
+                }else{
+                    A[x] = A[n];
+                    n++;
+                }x++;
+            }else{
+                A[x] = B[l];
+                l++;
+                x++;
+            }
+        }
+
+        for(int i=0;i<A.length;i++){
+            System.out.println(A[i]);
+        }
+    }
    
     public static void main(String[] args){
         int[] A = {1,0,5,0,0,10,0};
@@ -40,3 +77,6 @@ public class mergeTwoArr {
 	    mergeArr(A,B);
     }    
 }
+
+// executable code
+// https://www.onlinegdb.com/edit/u2Vv0b2H1
