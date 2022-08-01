@@ -1,4 +1,4 @@
-public class Main
+public class largestSumSubArr
 {
     public static int largestSubArray(int[] arr){
         int maxSofar = Integer.MIN_VALUE;

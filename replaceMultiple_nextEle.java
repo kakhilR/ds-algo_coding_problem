@@ -1,5 +1,3 @@
-package ds_algo_array.package1;
-
 public class replaceMultiple_nextEle {
 	public static void replace_multiple_next_ele(int[] arr, int len){
         int i=1;

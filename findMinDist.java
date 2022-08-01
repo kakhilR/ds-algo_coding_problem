@@ -1,6 +1,6 @@
 // {3,5,4,2,6,5} x=3,y=6 output= min distant btween x and y is 4 
 // {4,9,3,7,6,2,5,2,3} x=3,y=2 output= min distant btween x and y is 1
-public class Main
+public class findMinDist
 {
     public static void minDistTwoEle(int[] arr, int x, int y){
         int minDist = Integer.MAX_VALUE;

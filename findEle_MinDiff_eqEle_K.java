@@ -1,5 +1,3 @@
-package ds_algo_array.package1;
-
 public class findEle_MinDiff_eqEle_K {
 
 	public static void sumTwoEleEqlK(int[] arr1, int[] arr2, int k) {

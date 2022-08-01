@@ -12,7 +12,6 @@ public class mergeTwoArr {
     }
 
     public static void mergeArr(int[] A,int[] B) {
-        int curr=0;
         int lastInd = A.length-1;
         for(int i=lastInd;i>=0;i--){
             if(A[i]>0){

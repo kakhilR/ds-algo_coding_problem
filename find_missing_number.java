@@ -1,5 +1,3 @@
-package ds_algo_array.package1;
-
 import java.util.Arrays;
 
 
