@@ -12,12 +12,13 @@ class Node{
 }
 
 class Max_level{
-    int Max_level;
+    int max_level;
 }
 
 public class treeRightView {
     Node root;
     
+    Max_level max = new Max_level();
     // bfs approch
     void printRightViewTreeBFS(){
         Queue<Node> q= new LinkedList<Node>();
@@ -50,15 +51,15 @@ public class treeRightView {
         
         if(max_level.max_level < level){
             System.out.println(node.data+" ");
-            max_level = level;
+            max_level.max_level = level;
         }
         
-        printRightViewDFS(node.right,level+1,max_level);
-        printRightViewDFS(node.left,level+1,max_level);
+        printRightViewDFS(node.right, level+1, max_level);
+        printRightViewDFS(node.left, level+1, max_level);
     }
     
     void treeRightViewDFS(Node node){
-        printRightViewDFS(node,1,max);
+        printRightViewDFS(node,1, max);
     }
     
     void rightViewDFS(){
