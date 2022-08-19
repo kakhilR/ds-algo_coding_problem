@@ -21,7 +21,7 @@ public class treeDeserialize {
         q.add(root);
         while(!q.isEmpty()){
             Node temp = q.poll();
-            if(temp == min_value){
+            if(temp.data == min_value){
                 list.add(min_value);
             }
             else{
@@ -37,12 +37,12 @@ public class treeDeserialize {
         return list;
     }
     
-    Node deSerialize(int[] arr,start,end){
+    void deSerialize(int[] arr, start, end){
         int mid = start+end/2;
         Node node = new Node(Arr[mid]);
         if(start!=end){
-            node.left = deSerialize(arr,start,mid);
-            node.right = deSerialize(arr,mid-1,end);
+            node.left = deSerialize(arr, start, mid);
+            node.right = deSerialize(arr, mid-1, end);
         }
     }
     public static void main(String[] args) {
