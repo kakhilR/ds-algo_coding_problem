@@ -105,4 +105,4 @@ public class LinkedListPalindrome {
 }
 
 // executable code link
-// https://www.onlinegdb.com/edit/SJo9SDNp1
+// https://onlinegdb.com/OMFr_ak-uO
