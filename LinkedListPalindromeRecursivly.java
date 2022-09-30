@@ -35,3 +35,4 @@ public class LinkedListPalindromeRecursivly {
 		System.out.println(ll.ispalindrome(head));
 	}
 }
+// https://onlinegdb.com/yW3vhJ4Yn
